@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE3E3"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".super_admin.dashboard_super">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="40dp"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FDFDFD"
+                app:cardCornerRadius="22.5dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:id="@+id/nav_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/superadminprofile" />
+
+                <TextView
+                    android:id="@+id/cardname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="75dp"
+                    android:background="@null"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="Personal"
+                    android:textColor="#090808"
+                    android:textSize="15sp" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addpg"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FDFDFD"
+                app:cardCornerRadius="22.5dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/addadmin"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="xhd Add PG"
+                    android:textSize="15sp"
+                    android:textColor="#090808" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/viewpg"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FDFDFD"
+                app:cardCornerRadius="22.5dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/viewpg"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="View PG"
+                    android:textSize="15sp"
+                    android:textColor="#090808" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_complaint"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FDFDFD"
+                    app:cardCornerRadius="22.5dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/complaints" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="80dp"
+                        android:background="@null"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="Complaints"
+                        android:textColor="#090808"
+                        android:textSize="15sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/additional"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FDFDFD"
+                    app:cardCornerRadius="22.5dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical|center"
+                        android:src="@drawable/logout" />
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/promotion"
+                    android:layout_width="270dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    app:cardBackgroundColor="#FDFDFD"
+                    app:cardCornerRadius="22.5dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:id="@+id/upload"
+                        android:layout_width="89dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:gravity="center"
+                        android:src="@color/design_default_color_primary"
+                        android:text="Upload Promotion Image"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/addimage" />
+
+                    <TextView
+                        android:id="@+id/load"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:gravity="center"
+                        android:src="@color/design_default_color_primary"
+                        android:text="Send it"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

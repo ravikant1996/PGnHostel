@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/account"
+        android:icon="@drawable/calendar"
+        android:title="User Account"/>
+    <item android:id="@+id/settings"
+        android:icon="@drawable/family_time"
+        android:title="Raise a Complaint"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/me_time"
+        android:title="U_Logout"/>
+</menu>

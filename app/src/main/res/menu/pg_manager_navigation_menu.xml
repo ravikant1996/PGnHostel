@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/acc"
+        android:icon="@drawable/calendar"
+        android:title="Manager Account"/>
+    <item android:id="@+id/add_user"
+        android:icon="@drawable/family_time"
+        android:title="Add User"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/me_time"
+        android:title="M_Logout"/>
+</menu>

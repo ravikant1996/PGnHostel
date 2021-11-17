@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/dashboard_super"
+        android:title="Dashboard"/>
+    <item android:id="@+id/add_pg"
+        android:title="Add PG"/>
+    <item android:id="@+id/view_admin"
+        android:title="View PG List"/>
+    <item android:id="@+id/accou"
+        android:title="View Complaints"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="S_Logout"/>
+</menu>
